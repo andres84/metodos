@@ -16,8 +16,9 @@ public class app {
         Persona per = new Persona();
         per.setNombre("andres");
         per.setEdad(32);
+        //invocacion metodo de instancia
         per.mostrarDeInstancia();
-        
+        //invocacion metodo de clase
         Persona.mostrarDeClase();
         
     }
